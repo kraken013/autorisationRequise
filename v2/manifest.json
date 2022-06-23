@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Controle2",
+    "version": "1.0",
+  
+    "description": "Demande l'age de la personne sur le site de mozilla.org (jj/mm/aaaa)",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["style3.js"]
+      }
+    ]
+  
+  }
